@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC8C3C0C1F741B2C0065C1A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8C3C0B1F741B2C0065C1A2 /* AppDelegate.swift */; };
+		EC8C3C0E1F741B2C0065C1A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8C3C0D1F741B2C0065C1A2 /* ViewController.swift */; };
+		EC8C3C111F741B2C0065C1A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC8C3C0F1F741B2C0065C1A2 /* Main.storyboard */; };
+		EC8C3C141F741B2C0065C1A2 /* DadosGame.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EC8C3C121F741B2C0065C1A2 /* DadosGame.xcdatamodeld */; };
+		EC8C3C161F741B2C0065C1A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC8C3C151F741B2C0065C1A2 /* Assets.xcassets */; };
+		EC8C3C191F741B2C0065C1A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC8C3C171F741B2C0065C1A2 /* LaunchScreen.storyboard */; };
+		EC8C3C241F741B2C0065C1A2 /* DadosGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8C3C231F741B2C0065C1A2 /* DadosGameTests.swift */; };
+		EC8C3C2F1F741B2C0065C1A2 /* DadosGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8C3C2E1F741B2C0065C1A2 /* DadosGameUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC8C3C201F741B2C0065C1A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC8C3C001F741B2C0065C1A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC8C3C071F741B2C0065C1A2;
+			remoteInfo = DadosGame;
+		};
+		EC8C3C2B1F741B2C0065C1A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC8C3C001F741B2C0065C1A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC8C3C071F741B2C0065C1A2;
+			remoteInfo = DadosGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC8C3C081F741B2C0065C1A2 /* DadosGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DadosGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC8C3C0B1F741B2C0065C1A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC8C3C0D1F741B2C0065C1A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC8C3C101F741B2C0065C1A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC8C3C131F741B2C0065C1A2 /* DadosGame.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DadosGame.xcdatamodel; sourceTree = "<group>"; };
+		EC8C3C151F741B2C0065C1A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC8C3C181F741B2C0065C1A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC8C3C1A1F741B2C0065C1A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC8C3C1F1F741B2C0065C1A2 /* DadosGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DadosGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC8C3C231F741B2C0065C1A2 /* DadosGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DadosGameTests.swift; sourceTree = "<group>"; };
+		EC8C3C251F741B2C0065C1A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC8C3C2A1F741B2C0065C1A2 /* DadosGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DadosGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC8C3C2E1F741B2C0065C1A2 /* DadosGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DadosGameUITests.swift; sourceTree = "<group>"; };
+		EC8C3C301F741B2C0065C1A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC8C3C051F741B2C0065C1A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC8C3C1C1F741B2C0065C1A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC8C3C271F741B2C0065C1A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC8C3BFF1F741B2B0065C1A2 = {
+			isa = PBXGroup;
+			children = (
+				EC8C3C0A1F741B2C0065C1A2 /* DadosGame */,
+				EC8C3C221F741B2C0065C1A2 /* DadosGameTests */,
+				EC8C3C2D1F741B2C0065C1A2 /* DadosGameUITests */,
+				EC8C3C091F741B2C0065C1A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC8C3C091F741B2C0065C1A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC8C3C081F741B2C0065C1A2 /* DadosGame.app */,
+				EC8C3C1F1F741B2C0065C1A2 /* DadosGameTests.xctest */,
+				EC8C3C2A1F741B2C0065C1A2 /* DadosGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC8C3C0A1F741B2C0065C1A2 /* DadosGame */ = {
+			isa = PBXGroup;
+			children = (
+				EC8C3C0B1F741B2C0065C1A2 /* AppDelegate.swift */,
+				EC8C3C0D1F741B2C0065C1A2 /* ViewController.swift */,
+				EC8C3C0F1F741B2C0065C1A2 /* Main.storyboard */,
+				EC8C3C151F741B2C0065C1A2 /* Assets.xcassets */,
+				EC8C3C171F741B2C0065C1A2 /* LaunchScreen.storyboard */,
+				EC8C3C1A1F741B2C0065C1A2 /* Info.plist */,
+				EC8C3C121F741B2C0065C1A2 /* DadosGame.xcdatamodeld */,
+			);
+			path = DadosGame;
+			sourceTree = "<group>";
+		};
+		EC8C3C221F741B2C0065C1A2 /* DadosGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC8C3C231F741B2C0065C1A2 /* DadosGameTests.swift */,
+				EC8C3C251F741B2C0065C1A2 /* Info.plist */,
+			);
+			path = DadosGameTests;
+			sourceTree = "<group>";
+		};
+		EC8C3C2D1F741B2C0065C1A2 /* DadosGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC8C3C2E1F741B2C0065C1A2 /* DadosGameUITests.swift */,
+				EC8C3C301F741B2C0065C1A2 /* Info.plist */,
+			);
+			path = DadosGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC8C3C071F741B2C0065C1A2 /* DadosGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC8C3C331F741B2C0065C1A2 /* Build configuration list for PBXNativeTarget "DadosGame" */;
+			buildPhases = (
+				EC8C3C041F741B2C0065C1A2 /* Sources */,
+				EC8C3C051F741B2C0065C1A2 /* Frameworks */,
+				EC8C3C061F741B2C0065C1A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DadosGame;
+			productName = DadosGame;
+			productReference = EC8C3C081F741B2C0065C1A2 /* DadosGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC8C3C1E1F741B2C0065C1A2 /* DadosGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC8C3C361F741B2C0065C1A2 /* Build configuration list for PBXNativeTarget "DadosGameTests" */;
+			buildPhases = (
+				EC8C3C1B1F741B2C0065C1A2 /* Sources */,
+				EC8C3C1C1F741B2C0065C1A2 /* Frameworks */,
+				EC8C3C1D1F741B2C0065C1A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC8C3C211F741B2C0065C1A2 /* PBXTargetDependency */,
+			);
+			name = DadosGameTests;
+			productName = DadosGameTests;
+			productReference = EC8C3C1F1F741B2C0065C1A2 /* DadosGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC8C3C291F741B2C0065C1A2 /* DadosGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC8C3C391F741B2C0065C1A2 /* Build configuration list for PBXNativeTarget "DadosGameUITests" */;
+			buildPhases = (
+				EC8C3C261F741B2C0065C1A2 /* Sources */,
+				EC8C3C271F741B2C0065C1A2 /* Frameworks */,
+				EC8C3C281F741B2C0065C1A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC8C3C2C1F741B2C0065C1A2 /* PBXTargetDependency */,
+			);
+			name = DadosGameUITests;
+			productName = DadosGameUITests;
+			productReference = EC8C3C2A1F741B2C0065C1A2 /* DadosGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC8C3C001F741B2C0065C1A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Matias;
+				TargetAttributes = {
+					EC8C3C071F741B2C0065C1A2 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					EC8C3C1E1F741B2C0065C1A2 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EC8C3C071F741B2C0065C1A2;
+					};
+					EC8C3C291F741B2C0065C1A2 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EC8C3C071F741B2C0065C1A2;
+					};
+				};
+			};
+			buildConfigurationList = EC8C3C031F741B2C0065C1A2 /* Build configuration list for PBXProject "DadosGame" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC8C3BFF1F741B2B0065C1A2;
+			productRefGroup = EC8C3C091F741B2C0065C1A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC8C3C071F741B2C0065C1A2 /* DadosGame */,
+				EC8C3C1E1F741B2C0065C1A2 /* DadosGameTests */,
+				EC8C3C291F741B2C0065C1A2 /* DadosGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC8C3C061F741B2C0065C1A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC8C3C191F741B2C0065C1A2 /* LaunchScreen.storyboard in Resources */,
+				EC8C3C161F741B2C0065C1A2 /* Assets.xcassets in Resources */,
+				EC8C3C111F741B2C0065C1A2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC8C3C1D1F741B2C0065C1A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC8C3C281F741B2C0065C1A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC8C3C041F741B2C0065C1A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC8C3C0E1F741B2C0065C1A2 /* ViewController.swift in Sources */,
+				EC8C3C0C1F741B2C0065C1A2 /* AppDelegate.swift in Sources */,
+				EC8C3C141F741B2C0065C1A2 /* DadosGame.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC8C3C1B1F741B2C0065C1A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC8C3C241F741B2C0065C1A2 /* DadosGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC8C3C261F741B2C0065C1A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC8C3C2F1F741B2C0065C1A2 /* DadosGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC8C3C211F741B2C0065C1A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC8C3C071F741B2C0065C1A2 /* DadosGame */;
+			targetProxy = EC8C3C201F741B2C0065C1A2 /* PBXContainerItemProxy */;
+		};
+		EC8C3C2C1F741B2C0065C1A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC8C3C071F741B2C0065C1A2 /* DadosGame */;
+			targetProxy = EC8C3C2B1F741B2C0065C1A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC8C3C0F1F741B2C0065C1A2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC8C3C101F741B2C0065C1A2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC8C3C171F741B2C0065C1A2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC8C3C181F741B2C0065C1A2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC8C3C311F741B2C0065C1A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC8C3C321F741B2C0065C1A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC8C3C341F741B2C0065C1A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PT98H6A5CY;
+				INFOPLIST_FILE = DadosGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.matiasdim.DadosGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC8C3C351F741B2C0065C1A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PT98H6A5CY;
+				INFOPLIST_FILE = DadosGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.matiasdim.DadosGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC8C3C371F741B2C0065C1A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PT98H6A5CY;
+				INFOPLIST_FILE = DadosGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.matiasdim.DadosGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DadosGame.app/DadosGame";
+			};
+			name = Debug;
+		};
+		EC8C3C381F741B2C0065C1A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PT98H6A5CY;
+				INFOPLIST_FILE = DadosGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.matiasdim.DadosGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DadosGame.app/DadosGame";
+			};
+			name = Release;
+		};
+		EC8C3C3A1F741B2C0065C1A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PT98H6A5CY;
+				INFOPLIST_FILE = DadosGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.matiasdim.DadosGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DadosGame;
+			};
+			name = Debug;
+		};
+		EC8C3C3B1F741B2C0065C1A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PT98H6A5CY;
+				INFOPLIST_FILE = DadosGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.matiasdim.DadosGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DadosGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC8C3C031F741B2C0065C1A2 /* Build configuration list for PBXProject "DadosGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC8C3C311F741B2C0065C1A2 /* Debug */,
+				EC8C3C321F741B2C0065C1A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC8C3C331F741B2C0065C1A2 /* Build configuration list for PBXNativeTarget "DadosGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC8C3C341F741B2C0065C1A2 /* Debug */,
+				EC8C3C351F741B2C0065C1A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC8C3C361F741B2C0065C1A2 /* Build configuration list for PBXNativeTarget "DadosGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC8C3C371F741B2C0065C1A2 /* Debug */,
+				EC8C3C381F741B2C0065C1A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC8C3C391F741B2C0065C1A2 /* Build configuration list for PBXNativeTarget "DadosGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC8C3C3A1F741B2C0065C1A2 /* Debug */,
+				EC8C3C3B1F741B2C0065C1A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EC8C3C121F741B2C0065C1A2 /* DadosGame.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EC8C3C131F741B2C0065C1A2 /* DadosGame.xcdatamodel */,
+			);
+			currentVersion = EC8C3C131F741B2C0065C1A2 /* DadosGame.xcdatamodel */;
+			path = DadosGame.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EC8C3C001F741B2C0065C1A2 /* Project object */;
+}
